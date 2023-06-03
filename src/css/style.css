@@ -1,0 +1,68 @@
+.widget {
+  padding-left: 40px;
+}
+
+.cards {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.card {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
+.card.disabled {
+  filter: grayscale(1);
+}
+
+.mir {
+  background-image: url(../img/mir.png);
+}
+
+.visa {
+  background-image: url(../img/visa.png);
+}
+
+.mastercard {
+  background-image: url(../img/mastercard.png);
+}
+
+.maestro {
+  background-image: url(../img/maestro.png);
+}
+
+.american-express {
+  background-image: url(../img/am-ex.png);
+}
+
+.unknown {
+  background-image: url(../img/unknown.png);
+}
+
+.input {
+  padding: 5px;
+}
+
+.submit {
+  padding: 5px;
+}
+
+.valid {
+  border: solid #2db64f 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 163, 35, 0.5) inset;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 163, 35, 0.5) inset;
+  box-shadow: 0px 0px 4px 0px rgba(0, 163, 35, 0.5) inset;
+
+}
+
+.invalid {
+  border: solid #ff3838 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(255, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(255, 0, 0, 0.5) inset;
+  box-shadow: 0px 0px 4px 0px rgba(255, 0, 0, 0.5) inset;
+}
